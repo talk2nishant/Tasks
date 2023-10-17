@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    &_container{
+        &_heading{
+           h1{
+            margin: 100px;
+            text-align: center;
+           }
+        }
+        &_buttons{
+           display: flex;
+           justify-content: center;
+           gap:200px;
+           margin: 50px;
+
+           div{
+            text-align: center;
+            p{
+                margin: 10px;
+                font-size: 22px;
+            }
+            
+           }
+           
+           button{
+            width: 200px;
+            height: 40px;
+            font-size: 18px;
+            border-radius: 5px;
+            background-color: #3876BF;
+            border: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+           }
+        }
+    }
+}

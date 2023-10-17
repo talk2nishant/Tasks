@@ -1,0 +1,68 @@
+.maincontainer{
+   
+    &_home{
+        button{
+            align-items: start;
+        }
+    }
+    &_todoList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-inline: auto;
+        width: 550px;
+        &_heading{
+           h1{
+            margin-bottom:30px ;
+           }
+        }
+        &_add{
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            input{
+                width: 500px;
+                height: 50px;
+                border-radius: 8px;
+                border: none;
+                font-size: 20px;
+                padding: 0 20px;
+            }
+            button{
+                width: 100px;
+                margin-top: 10px;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+                background-color: #192655;
+                color: lightgrey;
+                cursor: pointer;
+            }
+        }
+        &_result{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 25px;
+            background-color: lightgrey;
+            align-items: center;
+            padding: 10px;
+            margin-top:30px ;
+            &_heading{}
+            &_button{
+                display: flex;
+                gap: 20px;
+                button{
+                width: 60px;
+                    height: 25px;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 5px;
+                    background-color:#192655;
+                    color: lightgray;
+                }
+            }
+        }
+    }
+}

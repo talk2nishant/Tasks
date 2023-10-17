@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.main_container_heading h1 {
+  margin: 100px;
+  text-align: center;
+}
+.main_container_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin: 50px;
+}
+.main_container_buttons div {
+  text-align: center;
+}
+.main_container_buttons div p {
+  margin: 10px;
+  font-size: 22px;
+}
+.main_container_buttons button {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #3876BF;
+  border: none;
+}
+.main_container_buttons button a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
